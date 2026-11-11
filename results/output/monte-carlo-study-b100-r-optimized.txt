@@ -1,0 +1,111 @@
+
+Running study with 100 bootstrap samples
+
+Study conditions:
+  Population mean: 100 SD: 10 
+
+Estimated standard errors for the normal population using 100 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 1.84
+  SE Mean from Bootstrap Samples: 1.85
+  SE Median from Bootstrap Samples: 2.21
+  SE Mean, standard bootstrap: 1.96
+  SE Median, standard bootstrap: 2.62
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 0.96
+  SE Mean from Bootstrap Samples: 0.93
+  SE Median from Bootstrap Samples: 1.21
+  SE Mean, standard bootstrap: 0.97
+  SE Median, standard bootstrap: 1.26
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.65
+  SE Mean from Bootstrap Samples: 0.65
+  SE Median from Bootstrap Samples: 0.78
+  SE Mean, standard bootstrap: 0.66
+  SE Median, standard bootstrap: 0.85
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.53
+  SE Mean from Bootstrap Samples: 0.53
+  SE Median from Bootstrap Samples: 0.64
+  SE Mean, standard bootstrap: 0.51
+  SE Median, standard bootstrap: 0.64
+
+Estimated standard errors for the right-skewed population using 100 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 1.97
+  SE Mean from Bootstrap Samples: 1.98
+  SE Median from Bootstrap Samples: 1.97
+  SE Mean, standard bootstrap: 1.95
+  SE Median, standard bootstrap: 2.33
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 0.97
+  SE Mean from Bootstrap Samples: 0.98
+  SE Median from Bootstrap Samples: 0.86
+  SE Mean, standard bootstrap: 0.97
+  SE Median, standard bootstrap: 1
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.74
+  SE Mean from Bootstrap Samples: 0.74
+  SE Median from Bootstrap Samples: 0.65
+  SE Mean, standard bootstrap: 0.66
+  SE Median, standard bootstrap: 0.69
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.47
+  SE Mean from Bootstrap Samples: 0.47
+  SE Median from Bootstrap Samples: 0.47
+  SE Mean, standard bootstrap: 0.5
+  SE Median, standard bootstrap: 0.51
+
+Estimated standard errors for the left-skewed population using 100 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 2.02
+  SE Mean from Bootstrap Samples: 2.01
+  SE Median from Bootstrap Samples: 1.86
+  SE Mean, standard bootstrap: 1.82
+  SE Median, standard bootstrap: 2.09
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 1.14
+  SE Mean from Bootstrap Samples: 1.15
+  SE Median from Bootstrap Samples: 1.01
+  SE Mean, standard bootstrap: 0.97
+  SE Median, standard bootstrap: 0.99
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.72
+  SE Mean from Bootstrap Samples: 0.72
+  SE Median from Bootstrap Samples: 0.73
+  SE Mean, standard bootstrap: 0.65
+  SE Median, standard bootstrap: 0.67
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.56
+  SE Mean from Bootstrap Samples: 0.56
+  SE Median from Bootstrap Samples: 0.53
+  SE Mean, standard bootstrap: 0.5
+  SE Median, standard bootstrap: 0.5
+
+Elapsed time for all three shapes: 4.74 seconds
+
+----- Run Complete -----

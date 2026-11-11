@@ -1,0 +1,8 @@
+
+Bootstrap SE of the median with boot::boot(), B = 1000 
+Note: boot() stores all B x n resample positions at once, so its memory use grows with B times n.
+
+dataset                    n   median   SE boot SE theory     95% percentile CI  seconds
+normal-n10000          10000   99.991    0.1184    0.1253   [  99.762,  100.259]     0.55
+
+----- Run Complete -----

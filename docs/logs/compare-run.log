@@ -1,0 +1,49 @@
+time=2026-11-10T15:53:33.163-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="R original" run=1 of=3
+time=2026-11-10T15:53:50.412-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="R original" run=2 of=3
+time=2026-11-10T15:54:08.838-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="R original" run=3 of=3
+time=2026-11-10T15:54:26.109-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="R optimized" run=1 of=3
+time=2026-11-10T15:54:31.100-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="R optimized" run=2 of=3
+time=2026-11-10T15:54:36.057-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="R optimized" run=3 of=3
+time=2026-11-10T15:54:41.006-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="Go, 1 core" run=1 of=3
+time=2026-11-10T15:54:41.313-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="Go, 1 core" run=2 of=3
+time=2026-11-10T15:54:41.615-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="Go, 1 core" run=3 of=3
+time=2026-11-10T15:54:41.915-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="Go, all cores" run=1 of=3
+time=2026-11-10T15:54:41.988-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="Go, all cores" run=2 of=3
+time=2026-11-10T15:54:42.062-05:00 level=INFO msg=running workload="Monte Carlo study, B=100" program="Go, all cores" run=3 of=3
+time=2026-11-10T15:54:42.136-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="R original" run=1 of=1
+time=2026-11-10T15:57:32.098-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="R optimized" run=1 of=3
+time=2026-11-10T15:58:14.766-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="R optimized" run=2 of=3
+time=2026-11-10T15:58:57.701-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="R optimized" run=3 of=3
+time=2026-11-10T15:59:41.203-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="Go, 1 core" run=1 of=3
+time=2026-11-10T15:59:43.798-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="Go, 1 core" run=2 of=3
+time=2026-11-10T15:59:46.401-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="Go, 1 core" run=3 of=3
+time=2026-11-10T15:59:48.988-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="Go, all cores" run=1 of=3
+time=2026-11-10T15:59:49.372-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="Go, all cores" run=2 of=3
+time=2026-11-10T15:59:49.757-05:00 level=INFO msg=running workload="Monte Carlo study, B=1000" program="Go, all cores" run=3 of=3
+time=2026-11-10T15:59:50.139-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="R boot package" run=1 of=3
+time=2026-11-10T15:59:50.453-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="R boot package" run=2 of=3
+time=2026-11-10T15:59:50.745-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="R boot package" run=3 of=3
+time=2026-11-10T15:59:51.032-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="Go, 1 core" run=1 of=3
+time=2026-11-10T15:59:51.047-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="Go, 1 core" run=2 of=3
+time=2026-11-10T15:59:51.061-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="Go, 1 core" run=3 of=3
+time=2026-11-10T15:59:51.075-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="Go, all cores" run=1 of=3
+time=2026-11-10T15:59:51.079-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="Go, all cores" run=2 of=3
+time=2026-11-10T15:59:51.084-05:00 level=INFO msg=running workload="one dataset, n=1000, B=1000" program="Go, all cores" run=3 of=3
+time=2026-11-10T15:59:51.088-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="R boot package" run=1 of=3
+time=2026-11-10T15:59:51.894-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="R boot package" run=2 of=3
+time=2026-11-10T15:59:52.713-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="R boot package" run=3 of=3
+time=2026-11-10T15:59:53.520-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="Go, 1 core" run=1 of=3
+time=2026-11-10T15:59:53.629-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="Go, 1 core" run=2 of=3
+time=2026-11-10T15:59:53.738-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="Go, 1 core" run=3 of=3
+time=2026-11-10T15:59:53.846-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="Go, all cores" run=1 of=3
+time=2026-11-10T15:59:53.865-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="Go, all cores" run=2 of=3
+time=2026-11-10T15:59:53.883-05:00 level=INFO msg=running workload="one dataset, n=10000, B=1000" program="Go, all cores" run=3 of=3
+time=2026-11-10T15:59:53.902-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="R boot package" run=1 of=3
+time=2026-11-10T15:59:59.388-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="R boot package" run=2 of=3
+time=2026-11-10T16:00:04.731-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="R boot package" run=3 of=3
+time=2026-11-10T16:00:10.203-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="Go, 1 core" run=1 of=3
+time=2026-11-10T16:00:11.250-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="Go, 1 core" run=2 of=3
+time=2026-11-10T16:00:12.294-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="Go, 1 core" run=3 of=3
+time=2026-11-10T16:00:13.336-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="Go, all cores" run=1 of=3
+time=2026-11-10T16:00:13.494-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="Go, all cores" run=2 of=3
+time=2026-11-10T16:00:13.655-05:00 level=INFO msg=running workload="one dataset, n=100000, B=1000" program="Go, all cores" run=3 of=3

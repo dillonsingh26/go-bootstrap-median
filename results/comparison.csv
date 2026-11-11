@@ -1,0 +1,50 @@
+workload,program,run,wall_seconds,cpu_seconds,peak_mb
+"Monte Carlo study, B=100",R original,1,17.2485,17.2060,137.7930
+"Monte Carlo study, B=100",R original,2,18.4260,17.9686,138.8594
+"Monte Carlo study, B=100",R original,3,17.2702,17.2239,140.1172
+"Monte Carlo study, B=100",R optimized,1,4.9913,4.9584,129.9766
+"Monte Carlo study, B=100",R optimized,2,4.9564,4.9195,136.4805
+"Monte Carlo study, B=100",R optimized,3,4.9481,4.9128,122.7227
+"Monte Carlo study, B=100","Go, 1 core",1,0.3072,0.3136,13.1250
+"Monte Carlo study, B=100","Go, 1 core",2,0.3012,0.3102,13.2344
+"Monte Carlo study, B=100","Go, 1 core",3,0.3001,0.3095,13.3750
+"Monte Carlo study, B=100","Go, all cores",1,0.0728,0.3852,15.7031
+"Monte Carlo study, B=100","Go, all cores",2,0.0737,0.3863,14.8594
+"Monte Carlo study, B=100","Go, all cores",3,0.0739,0.3852,14.8125
+"Monte Carlo study, B=1000",R original,1,169.9626,169.9024,141.3047
+"Monte Carlo study, B=1000",R optimized,1,42.6661,42.6132,170.4531
+"Monte Carlo study, B=1000",R optimized,2,42.9345,42.8924,157.2656
+"Monte Carlo study, B=1000",R optimized,3,43.5018,43.4560,157.8281
+"Monte Carlo study, B=1000","Go, 1 core",1,2.5948,2.6014,14.0781
+"Monte Carlo study, B=1000","Go, 1 core",2,2.6026,2.6123,14.0000
+"Monte Carlo study, B=1000","Go, 1 core",3,2.5863,2.5967,13.6250
+"Monte Carlo study, B=1000","Go, all cores",1,0.3838,3.3766,15.3906
+"Monte Carlo study, B=1000","Go, all cores",2,0.3841,3.3806,15.3906
+"Monte Carlo study, B=1000","Go, all cores",3,0.3817,3.3728,15.2500
+"one dataset, n=1000, B=1000",R boot package,1,0.3138,0.2668,109.3984
+"one dataset, n=1000, B=1000",R boot package,2,0.2923,0.2597,112.9453
+"one dataset, n=1000, B=1000",R boot package,3,0.2867,0.2545,108.8398
+"one dataset, n=1000, B=1000","Go, 1 core",1,0.0147,0.0142,5.4531
+"one dataset, n=1000, B=1000","Go, 1 core",2,0.0136,0.0134,5.4219
+"one dataset, n=1000, B=1000","Go, 1 core",3,0.0135,0.0133,5.4531
+"one dataset, n=1000, B=1000","Go, all cores",1,0.0045,0.0166,6.5781
+"one dataset, n=1000, B=1000","Go, all cores",2,0.0044,0.0157,6.4688
+"one dataset, n=1000, B=1000","Go, all cores",3,0.0044,0.0159,6.5625
+"one dataset, n=10000, B=1000",R boot package,1,0.8058,0.7698,149.9023
+"one dataset, n=10000, B=1000",R boot package,2,0.8182,0.7809,164.8047
+"one dataset, n=10000, B=1000",R boot package,3,0.8075,0.7657,165.4766
+"one dataset, n=10000, B=1000","Go, 1 core",1,0.1084,0.1081,6.2031
+"one dataset, n=10000, B=1000","Go, 1 core",2,0.1084,0.1081,6.3281
+"one dataset, n=10000, B=1000","Go, 1 core",3,0.1082,0.1080,6.3594
+"one dataset, n=10000, B=1000","Go, all cores",1,0.0187,0.1393,8.0000
+"one dataset, n=10000, B=1000","Go, all cores",2,0.0186,0.1393,7.8906
+"one dataset, n=10000, B=1000","Go, all cores",3,0.0187,0.1396,7.9844
+"one dataset, n=100000, B=1000",R boot package,1,5.4857,5.4364,1060.5625
+"one dataset, n=100000, B=1000",R boot package,2,5.3424,5.3030,1079.6523
+"one dataset, n=100000, B=1000",R boot package,3,5.4716,5.4389,1074.6758
+"one dataset, n=100000, B=1000","Go, 1 core",1,1.0475,1.0447,10.9375
+"one dataset, n=100000, B=1000","Go, 1 core",2,1.0432,1.0437,11.5312
+"one dataset, n=100000, B=1000","Go, 1 core",3,1.0418,1.0424,10.7812
+"one dataset, n=100000, B=1000","Go, all cores",1,0.1581,1.3842,15.9062
+"one dataset, n=100000, B=1000","Go, all cores",2,0.1608,1.3934,16.4219
+"one dataset, n=100000, B=1000","Go, all cores",3,0.1621,1.4027,16.2656

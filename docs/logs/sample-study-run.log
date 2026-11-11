@@ -1,0 +1,8 @@
+time=2026-11-10T16:00:48.549-05:00 level=INFO msg=starting file="" study=data/study resamples=100 seed=9999 workers=10 cpus=10
+time=2026-11-10T16:00:48.560-05:00 level=INFO msg="read study file" path=data/study/normal.csv samples=400
+time=2026-11-10T16:00:48.575-05:00 level=INFO msg="study shape finished" shape=normal duration=15.321166ms
+time=2026-11-10T16:00:48.586-05:00 level=INFO msg="read study file" path=data/study/right-skewed.csv samples=400
+time=2026-11-10T16:00:48.600-05:00 level=INFO msg="study shape finished" shape=right-skewed duration=14.050709ms
+time=2026-11-10T16:00:48.611-05:00 level=INFO msg="read study file" path=data/study/left-skewed.csv samples=400
+time=2026-11-10T16:00:48.625-05:00 level=INFO msg="study shape finished" shape=left-skewed duration=14.371417ms
+time=2026-11-10T16:00:48.625-05:00 level=INFO msg="memory use" total_allocated_mb=50 heap_reserved_mb=11 from_os_mb=17 garbage_collections=19

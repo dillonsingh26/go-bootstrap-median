@@ -1,0 +1,13 @@
+File: bootmedian
+Type: alloc_space
+Time: 2026-11-10 15:34:15 EST
+Showing nodes accounting for 323.97MB, 99.54% of 325.47MB total
+Dropped 16 nodes (cum <= 1.63MB)
+Showing top 6 nodes out of 13
+      flat  flat%   sum%        cum   cum%
+  161.19MB 49.52% 49.52%   161.19MB 49.52%  github.com/dillonsingh26/go-bootstrap-median/bootstrap.drawResample
+  155.33MB 47.72% 97.25%   155.33MB 47.72%  slices.Clone[go.shape.[]float64,go.shape.float64] (inline)
+    4.46MB  1.37% 98.62%     7.46MB  2.29%  main.readColumns
+       3MB  0.92% 99.54%        3MB  0.92%  encoding/csv.(*Reader).readRecord
+         0     0% 99.54%        3MB  0.92%  encoding/csv.(*Reader).Read
+         0     0% 99.54%   155.33MB 47.72%  github.com/dillonsingh26/go-bootstrap-median/bootstrap.Median

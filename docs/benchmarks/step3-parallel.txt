@@ -1,0 +1,54 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/dillonsingh26/go-bootstrap-median/bootstrap
+cpu: Apple M4
+BenchmarkRunMedian/n=100-10      	   21992	     53885 ns/op	    5560 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100-10      	   22542	     53469 ns/op	    5560 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100-10      	   22321	     53965 ns/op	    5560 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100-10      	   22140	     54115 ns/op	    5560 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100-10      	   22130	     54329 ns/op	    5560 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100-10      	   22186	     54267 ns/op	    5560 B/op	       9 allocs/op
+BenchmarkRunMedian/n=1000-10     	    1224	    954018 ns/op	   20152 B/op	       9 allocs/op
+BenchmarkRunMedian/n=1000-10     	    1231	    924947 ns/op	   20152 B/op	       9 allocs/op
+BenchmarkRunMedian/n=1000-10     	    1323	    961825 ns/op	   20152 B/op	       9 allocs/op
+BenchmarkRunMedian/n=1000-10     	    1252	    939252 ns/op	   20152 B/op	       9 allocs/op
+BenchmarkRunMedian/n=1000-10     	    1278	    927164 ns/op	   20152 B/op	       9 allocs/op
+BenchmarkRunMedian/n=1000-10     	    1299	    931093 ns/op	   20152 B/op	       9 allocs/op
+BenchmarkRunMedian/n=10000-10    	     120	   9897050 ns/op	  167608 B/op	       9 allocs/op
+BenchmarkRunMedian/n=10000-10    	     120	   9948681 ns/op	  167608 B/op	       9 allocs/op
+BenchmarkRunMedian/n=10000-10    	     121	   9879900 ns/op	  167608 B/op	       9 allocs/op
+BenchmarkRunMedian/n=10000-10    	     120	   9929207 ns/op	  167608 B/op	       9 allocs/op
+BenchmarkRunMedian/n=10000-10    	     120	   9938985 ns/op	  167608 B/op	       9 allocs/op
+BenchmarkRunMedian/n=10000-10    	     120	   9944091 ns/op	  167608 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100000-10   	      10	 101119838 ns/op	 1609400 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100000-10   	      12	 100967028 ns/op	 1609401 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100000-10   	      10	 100696321 ns/op	 1609400 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100000-10   	      10	 101373029 ns/op	 1609400 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100000-10   	      12	 102849715 ns/op	 1609401 B/op	       9 allocs/op
+BenchmarkRunMedian/n=100000-10   	      10	 101415083 ns/op	 1609411 B/op	       9 allocs/op
+BenchmarkRunParallelMedian/n=100-10         	   17814	     66757 ns/op	  189614 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100-10         	   17962	     66764 ns/op	  189603 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100-10         	   17941	     66928 ns/op	  189606 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100-10         	   18045	     66511 ns/op	  189601 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100-10         	   17971	     66691 ns/op	  189600 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100-10         	   17970	     66837 ns/op	  189600 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=1000-10        	    4053	    291422 ns/op	  269866 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=1000-10        	    4171	    292341 ns/op	  269863 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=1000-10        	    4159	    292089 ns/op	  269865 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=1000-10        	    4123	    291911 ns/op	  269865 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=1000-10        	    4166	    291971 ns/op	  269861 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=1000-10        	    4048	    296207 ns/op	  269864 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=10000-10       	     580	   1960886 ns/op	 1080858 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=10000-10       	     620	   1925564 ns/op	 1080904 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=10000-10       	     632	   1918809 ns/op	 1080893 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=10000-10       	     622	   1935423 ns/op	 1080900 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=10000-10       	     621	   1930006 ns/op	 1080888 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=10000-10       	     630	   1921990 ns/op	 1080877 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100000-10      	      73	  16684987 ns/op	 9010696 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100000-10      	      67	  16858764 ns/op	 9010697 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100000-10      	      70	  16839131 ns/op	 9010696 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100000-10      	      72	  16934997 ns/op	 9010716 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100000-10      	      68	  17123063 ns/op	 9010747 B/op	     232 allocs/op
+BenchmarkRunParallelMedian/n=100000-10      	      69	  17100758 ns/op	 9010734 B/op	     232 allocs/op
+PASS
+ok  	github.com/dillonsingh26/go-bootstrap-median/bootstrap	56.876s

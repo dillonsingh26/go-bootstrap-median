@@ -1,0 +1,4 @@
+time=2026-11-10T16:00:48.371-05:00 level=INFO msg=starting file=data/timing/right-skewed-n100000.csv study="" resamples=1000 seed=9999 workers=10 cpus=10
+time=2026-11-10T16:00:48.379-05:00 level=INFO msg="read data" path=data/timing/right-skewed-n100000.csv values=100000 duration=7.616042ms
+time=2026-11-10T16:00:48.546-05:00 level=INFO msg="bootstrap finished" duration=166.621958ms
+time=2026-11-10T16:00:48.546-05:00 level=INFO msg="memory use" total_allocated_mb=15 heap_reserved_mb=15 from_os_mb=21 garbage_collections=4

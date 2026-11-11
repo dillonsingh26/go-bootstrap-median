@@ -1,0 +1,87 @@
+
+Running study with 1000 bootstrap samples
+
+Study conditions:
+  Population mean: 100 SD: 10 
+
+Estimated standard errors for the normal population using 1000 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 1.84
+  SE Mean from Bootstrap Samples: 1.84
+  SE Median from Bootstrap Samples: 2.2
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 0.96
+  SE Mean from Bootstrap Samples: 0.97
+  SE Median from Bootstrap Samples: 1.24
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.65
+  SE Mean from Bootstrap Samples: 0.65
+  SE Median from Bootstrap Samples: 0.78
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.53
+  SE Mean from Bootstrap Samples: 0.53
+  SE Median from Bootstrap Samples: 0.64
+
+Estimated standard errors for the right-skewed population using 1000 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 1.97
+  SE Mean from Bootstrap Samples: 1.96
+  SE Median from Bootstrap Samples: 1.92
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 0.97
+  SE Mean from Bootstrap Samples: 0.97
+  SE Median from Bootstrap Samples: 0.85
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.74
+  SE Mean from Bootstrap Samples: 0.74
+  SE Median from Bootstrap Samples: 0.65
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.47
+  SE Mean from Bootstrap Samples: 0.47
+  SE Median from Bootstrap Samples: 0.47
+
+Estimated standard errors for the left-skewed population using 1000 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 2.02
+  SE Mean from Bootstrap Samples: 2.01
+  SE Median from Bootstrap Samples: 1.87
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 1.14
+  SE Mean from Bootstrap Samples: 1.14
+  SE Median from Bootstrap Samples: 0.99
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.72
+  SE Mean from Bootstrap Samples: 0.72
+  SE Median from Bootstrap Samples: 0.72
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.56
+  SE Mean from Bootstrap Samples: 0.56
+  SE Median from Bootstrap Samples: 0.52
+
+Elapsed time for all three shapes: 169.74 seconds
+
+----- Run Complete -----

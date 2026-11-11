@@ -1,0 +1,19 @@
+File: bootmedian
+Type: cpu
+Time: 2026-11-10 15:34:14 EST
+Duration: 1.41s, Total samples = 1.02s (72.18%)
+Showing nodes accounting for 1.02s, 100% of 1.02s total
+Showing top 12 nodes out of 32
+      flat  flat%   sum%        cum   cum%
+     0.78s 76.47% 76.47%      0.80s 78.43%  slices.partitionOrdered[go.shape.float64]
+     0.12s 11.76% 88.24%      0.12s 11.76%  slices.insertionSortOrdered[go.shape.float64]
+     0.04s  3.92% 92.16%      0.05s  4.90%  slices.medianOrdered[go.shape.float64]
+     0.02s  1.96% 94.12%      0.02s  1.96%  cmp.Less[go.shape.float64] (inline)
+     0.02s  1.96% 96.08%      0.02s  1.96%  slices.partialInsertionSortOrdered[go.shape.float64]
+     0.01s  0.98% 97.06%      0.01s  0.98%  runtime.madvise
+     0.01s  0.98% 98.04%      0.01s  0.98%  runtime.pthread_cond_wait
+     0.01s  0.98% 99.02%      0.06s  5.88%  slices.choosePivotOrdered[go.shape.float64]
+     0.01s  0.98%   100%      0.01s  0.98%  slices.order2Ordered[go.shape.float64] (inline)
+         0     0%   100%         1s 98.04%  github.com/dillonsingh26/go-bootstrap-median/bootstrap.Median
+         0     0%   100%         1s 98.04%  github.com/dillonsingh26/go-bootstrap-median/bootstrap.Run
+         0     0%   100%         1s 98.04%  main.analyze

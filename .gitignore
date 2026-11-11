@@ -1,0 +1,11 @@
+# Local build and run output
+/bootmedian
+/bootmedian.exe
+*.log
+*.prof
+*.test
+coverage.out
+.DS_Store
+
+# Keep the sample logs in docs/logs
+!docs/logs/*.log

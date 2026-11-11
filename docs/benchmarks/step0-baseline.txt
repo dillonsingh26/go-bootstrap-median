@@ -1,0 +1,41 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/dillonsingh26/go-bootstrap-median/bootstrap
+cpu: Apple M4
+BenchmarkRunMedian/n=100-10         	   10339	    111005 ns/op	  183777 B/op	     206 allocs/op
+BenchmarkRunMedian/n=100-10         	   10000	    108983 ns/op	  183776 B/op	     206 allocs/op
+BenchmarkRunMedian/n=100-10         	   10000	    107228 ns/op	  183776 B/op	     206 allocs/op
+BenchmarkRunMedian/n=100-10         	   10000	    113589 ns/op	  183776 B/op	     206 allocs/op
+BenchmarkRunMedian/n=100-10         	   10000	    108913 ns/op	  183776 B/op	     206 allocs/op
+BenchmarkRunMedian/n=1000-10        	     337	   3520798 ns/op	 1650273 B/op	     206 allocs/op
+BenchmarkRunMedian/n=1000-10        	     336	   3527852 ns/op	 1650275 B/op	     206 allocs/op
+BenchmarkRunMedian/n=1000-10        	     336	   3547063 ns/op	 1650272 B/op	     206 allocs/op
+BenchmarkRunMedian/n=1000-10        	     339	   3548042 ns/op	 1650272 B/op	     206 allocs/op
+BenchmarkRunMedian/n=1000-10        	     336	   3545168 ns/op	 1650274 B/op	     206 allocs/op
+BenchmarkRunMedian/n=10000-10       	      24	  48039297 ns/op	16469618 B/op	     206 allocs/op
+BenchmarkRunMedian/n=10000-10       	      24	  48234988 ns/op	16469614 B/op	     206 allocs/op
+BenchmarkRunMedian/n=10000-10       	      24	  48461931 ns/op	16469628 B/op	     206 allocs/op
+BenchmarkRunMedian/n=10000-10       	      24	  48197273 ns/op	16469632 B/op	     206 allocs/op
+BenchmarkRunMedian/n=10000-10       	      24	  48099182 ns/op	16469618 B/op	     206 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 598816938 ns/op	161369696 B/op	     206 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 597260854 ns/op	161369976 B/op	     208 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 614630375 ns/op	161370032 B/op	     209 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 599362542 ns/op	161369808 B/op	     207 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 600068896 ns/op	161369696 B/op	     206 allocs/op
+BenchmarkMedian/n=1000-10           	  118477	     10097 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkMedian/n=1000-10           	  117309	     10242 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkMedian/n=1000-10           	  117396	     10257 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkMedian/n=1000-10           	  117562	     10244 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkMedian/n=1000-10           	  118198	     10122 ns/op	    8192 B/op	       1 allocs/op
+BenchmarkMedian/n=10000-10          	    5974	    193131 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkMedian/n=10000-10          	    7354	    163106 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkMedian/n=10000-10          	    7282	    161326 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkMedian/n=10000-10          	    6729	    167385 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkMedian/n=10000-10          	    7405	    162816 ns/op	   81920 B/op	       1 allocs/op
+BenchmarkMedian/n=100000-10         	     214	   5692021 ns/op	  802817 B/op	       1 allocs/op
+BenchmarkMedian/n=100000-10         	     213	   5573610 ns/op	  802816 B/op	       1 allocs/op
+BenchmarkMedian/n=100000-10         	     218	   5472434 ns/op	  802816 B/op	       1 allocs/op
+BenchmarkMedian/n=100000-10         	     218	   5468549 ns/op	  802818 B/op	       1 allocs/op
+BenchmarkMedian/n=100000-10         	     217	   5497690 ns/op	  802817 B/op	       1 allocs/op
+PASS
+ok  	github.com/dillonsingh26/go-bootstrap-median/bootstrap	41.485s

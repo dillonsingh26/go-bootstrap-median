@@ -1,0 +1,11 @@
+time=2026-11-10T16:00:12.296-05:00 level=INFO msg=starting file=data/timing/normal-n100000.csv study="" resamples=1000 seed=9999 workers=1 cpus=10
+time=2026-11-10T16:00:12.304-05:00 level=INFO msg="read data" path=data/timing/normal-n100000.csv values=100000 duration=7.305542ms
+time=2026-11-10T16:00:13.335-05:00 level=INFO msg="bootstrap finished" duration=1.031536583s
+Bootstrap estimate of the median for data/timing/normal-n100000.csv
+  values:              100000
+  bootstrap samples:   1000
+  median:              100.008
+  SE of the median:    0.0427
+  95% percentile CI:   [99.925, 100.097]
+  bootstrap time:      1.032 seconds
+time=2026-11-10T16:00:13.335-05:00 level=INFO msg="memory use" total_allocated_mb=8 heap_reserved_mb=7 from_os_mb=12 garbage_collections=3

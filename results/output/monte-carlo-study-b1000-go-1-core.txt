@@ -1,0 +1,119 @@
+time=2026-11-10T15:59:46.404-05:00 level=INFO msg=starting file="" study=data/study resamples=1000 seed=9999 workers=1 cpus=10
+
+Running study with 1000 bootstrap samples
+
+Study conditions:
+  Population mean: 100 SD: 10 
+time=2026-11-10T15:59:46.415-05:00 level=INFO msg="read study file" path=data/study/normal.csv samples=400
+time=2026-11-10T15:59:47.266-05:00 level=INFO msg="study shape finished" shape=normal duration=851.415875ms
+
+Estimated standard errors for the normal population using 1000 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 1.84
+  SE Mean from Bootstrap Samples: 1.84
+  SE Median from Bootstrap Samples: 2.19
+  SE Mean, standard bootstrap: 1.95
+  SE Median, standard bootstrap: 2.63
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 0.96
+  SE Mean from Bootstrap Samples: 0.96
+  SE Median from Bootstrap Samples: 1.23
+  SE Mean, standard bootstrap: 0.98
+  SE Median, standard bootstrap: 1.26
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.65
+  SE Mean from Bootstrap Samples: 0.65
+  SE Median from Bootstrap Samples: 0.78
+  SE Mean, standard bootstrap: 0.66
+  SE Median, standard bootstrap: 0.84
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.53
+  SE Mean from Bootstrap Samples: 0.53
+  SE Median from Bootstrap Samples: 0.64
+  SE Mean, standard bootstrap: 0.5
+  SE Median, standard bootstrap: 0.63
+time=2026-11-10T15:59:47.277-05:00 level=INFO msg="read study file" path=data/study/right-skewed.csv samples=400
+time=2026-11-10T15:59:48.127-05:00 level=INFO msg="study shape finished" shape=right-skewed duration=850.162459ms
+
+Estimated standard errors for the right-skewed population using 1000 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 1.97
+  SE Mean from Bootstrap Samples: 1.96
+  SE Median from Bootstrap Samples: 1.9
+  SE Mean, standard bootstrap: 1.96
+  SE Median, standard bootstrap: 2.32
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 0.97
+  SE Mean from Bootstrap Samples: 0.97
+  SE Median from Bootstrap Samples: 0.85
+  SE Mean, standard bootstrap: 0.97
+  SE Median, standard bootstrap: 0.99
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.74
+  SE Mean from Bootstrap Samples: 0.74
+  SE Median from Bootstrap Samples: 0.65
+  SE Mean, standard bootstrap: 0.66
+  SE Median, standard bootstrap: 0.69
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.47
+  SE Mean from Bootstrap Samples: 0.47
+  SE Median from Bootstrap Samples: 0.47
+  SE Mean, standard bootstrap: 0.5
+  SE Median, standard bootstrap: 0.51
+time=2026-11-10T15:59:48.137-05:00 level=INFO msg="read study file" path=data/study/left-skewed.csv samples=400
+time=2026-11-10T15:59:48.987-05:00 level=INFO msg="study shape finished" shape=left-skewed duration=849.648208ms
+
+Estimated standard errors for the left-skewed population using 1000 bootstrap samples
+
+Samples of size n = 25
+  SE Mean from Central Limit Theorem: 2
+  SE Mean from Samples: 2.02
+  SE Mean from Bootstrap Samples: 2.03
+  SE Median from Bootstrap Samples: 1.88
+  SE Mean, standard bootstrap: 1.84
+  SE Median, standard bootstrap: 2.11
+
+Samples of size n = 100
+  SE Mean from Central Limit Theorem: 1
+  SE Mean from Samples: 1.14
+  SE Mean from Bootstrap Samples: 1.15
+  SE Median from Bootstrap Samples: 0.99
+  SE Mean, standard bootstrap: 0.98
+  SE Median, standard bootstrap: 1
+
+Samples of size n = 225
+  SE Mean from Central Limit Theorem: 0.67
+  SE Mean from Samples: 0.72
+  SE Mean from Bootstrap Samples: 0.72
+  SE Median from Bootstrap Samples: 0.72
+  SE Mean, standard bootstrap: 0.66
+  SE Median, standard bootstrap: 0.68
+
+Samples of size n = 400
+  SE Mean from Central Limit Theorem: 0.5
+  SE Mean from Samples: 0.56
+  SE Mean from Bootstrap Samples: 0.56
+  SE Median from Bootstrap Samples: 0.52
+  SE Mean, standard bootstrap: 0.5
+  SE Median, standard bootstrap: 0.5
+
+Elapsed time for all three shapes: 2.58 seconds
+
+----- Run Complete -----
+time=2026-11-10T15:59:48.987-05:00 level=INFO msg="memory use" total_allocated_mb=67 heap_reserved_mb=11 from_os_mb=17 garbage_collections=24

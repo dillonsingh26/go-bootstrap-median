@@ -1,0 +1,26 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/dillonsingh26/go-bootstrap-median/bootstrap
+cpu: Apple M4
+BenchmarkRunMedian/n=100-10         	   11378	    103496 ns/op	    4576 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100-10         	   10000	    103879 ns/op	    4576 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100-10         	   10000	    102778 ns/op	    4576 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100-10         	   10000	    103588 ns/op	    4576 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100-10         	   10000	    103874 ns/op	    4576 B/op	       6 allocs/op
+BenchmarkRunMedian/n=1000-10        	     331	   3535121 ns/op	   11872 B/op	       6 allocs/op
+BenchmarkRunMedian/n=1000-10        	     345	   3489728 ns/op	   11872 B/op	       6 allocs/op
+BenchmarkRunMedian/n=1000-10        	     338	   3576140 ns/op	   11872 B/op	       6 allocs/op
+BenchmarkRunMedian/n=1000-10        	     319	   3636598 ns/op	   11872 B/op	       6 allocs/op
+BenchmarkRunMedian/n=1000-10        	     334	   3570560 ns/op	   11872 B/op	       6 allocs/op
+BenchmarkRunMedian/n=10000-10       	      22	  50022047 ns/op	   85600 B/op	       6 allocs/op
+BenchmarkRunMedian/n=10000-10       	      24	  49236092 ns/op	   85600 B/op	       6 allocs/op
+BenchmarkRunMedian/n=10000-10       	      24	  49155873 ns/op	   85600 B/op	       6 allocs/op
+BenchmarkRunMedian/n=10000-10       	      25	  48654350 ns/op	   85600 B/op	       6 allocs/op
+BenchmarkRunMedian/n=10000-10       	      25	  48799855 ns/op	   85600 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 602432062 ns/op	  806496 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 602573042 ns/op	  806496 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 603616104 ns/op	  806496 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 601254188 ns/op	  806496 B/op	       6 allocs/op
+BenchmarkRunMedian/n=100000-10      	       2	 607896792 ns/op	  806496 B/op	       6 allocs/op
+PASS
+ok  	github.com/dillonsingh26/go-bootstrap-median/bootstrap	23.362s

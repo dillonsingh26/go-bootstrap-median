@@ -1,0 +1,13 @@
+File: bootmedian
+Type: cpu
+Time: 2026-11-10 15:39:19 EST
+Duration: 305.72ms, Total samples = 1050ms (343.45%)
+Showing nodes accounting for 970ms, 92.38% of 1050ms total
+Showing top 6 nodes out of 40
+      flat  flat%   sum%        cum   cum%
+     470ms 44.76% 44.76%      500ms 47.62%  github.com/dillonsingh26/go-bootstrap-median/bootstrap.selectKth
+     190ms 18.10% 62.86%      190ms 18.10%  github.com/seehuhn/mt19937.(*MT19937).Uint64
+     110ms 10.48% 73.33%      300ms 28.57%  math/rand/v2.(*Rand).uint64n
+     100ms  9.52% 82.86%      400ms 38.10%  math/rand/v2.(*Rand).IntN (inline)
+      60ms  5.71% 88.57%      460ms 43.81%  github.com/dillonsingh26/go-bootstrap-median/bootstrap.fillResample
+      40ms  3.81% 92.38%       40ms  3.81%  slices.Max[go.shape.[]float64,go.shape.float64]
